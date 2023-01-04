@@ -10,7 +10,14 @@ routes.get('/', (req, res, next) => {
   //   res.sendFile(path.join(__dirname, '..', 'views', 'shop.html'));
   // res.sendFile(path.join(rootDir, 'views', 'shop.html'));
   const products = adminData.products;
-  res.render('shop', { prods: products, docTitle: 'My Shop', path: '/' });
+  res.render('shop', {
+    prods: products,
+    docTitle: 'My Shop',
+    path: '/',
+    hasProds: products.length > 0,
+    activeShop: true,
+    productCSS: true,
+  });
 });
 
 module.exports = routes;
