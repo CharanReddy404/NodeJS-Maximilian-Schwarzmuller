@@ -3,7 +3,7 @@ const path = require('path');
 
 const routes = express.Router();
 
-const productsController = require('../controllers/products');
+const shopController = require('../controllers/shop');
 
 // const rootDir = require('../util/path');
 // const adminData = require('./admin');
@@ -15,6 +15,12 @@ const productsController = require('../controllers/products');
 //   res.render('shop', { prods: products, docTitle: 'My Shop', path: '/' });
 // });
 
-routes.get('/', productsController.getProducts);
+routes.get('/', shopController.getIndex);
+
+routes.get('/products', shopController.getProducts);
+
+routes.get('/cart', shopController.getCart);
+
+routes.get('/checkout', shopController.getCheckout);
 
 module.exports = routes;
