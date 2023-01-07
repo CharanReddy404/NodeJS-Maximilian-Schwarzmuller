@@ -1,1 +1,16 @@
-[{"title":"Book","imageUrl":"https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg","description":"A Good Book","price":"89.69","id":"1"},{"title":"Book 2","imageUrl":"https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg","description":"Good book 2","price":"45.49","id":"2"}]
+[
+  {
+    "title": "Book",
+    "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
+    "description": "A Good Book",
+    "price": "89.69",
+    "id": "1"
+  },
+  {
+    "title": "Book 2",
+    "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
+    "description": "Good book 2",
+    "price": "45.49",
+    "id": "2"
+  }
+]
