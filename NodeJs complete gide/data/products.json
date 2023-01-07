@@ -1,10 +1,10 @@
 [
   {
-    "title": "Book",
+    "id": "1",
+    "title": "BOOK",
     "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
-    "description": "A Good Book",
-    "price": "89.69",
-    "id": "1"
+    "description": "A Good Book xD",
+    "price": "29.69"
   },
   {
     "title": "Book 2",
