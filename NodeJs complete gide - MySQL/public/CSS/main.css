@@ -24,8 +24,11 @@ form {
 }
 
 .img-div {
-  width: 40%;
-  height: auto;
+  height: 20rem;
+}
+
+.img-div img {
+  height: 100%;
 }
 
 .main-header {
