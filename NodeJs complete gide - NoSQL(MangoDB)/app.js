@@ -1,4 +1,5 @@
 const path = require('path');
+require('dotenv').config();
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -33,7 +34,7 @@ app.use('/admin', adminRoutes);
 app.use(errorController.get404);
 
 mongoConnect(() => {
-  app.listen(3000, () => {
-    console.log('Server Started in PORT 3000.....');
+  app.listen(process.env.PORT, () => {
+    console.log(`Server Started in PORT ${process.env.PORT}.....`);
   });
 });
